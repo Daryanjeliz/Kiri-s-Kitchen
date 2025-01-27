@@ -1,0 +1,54 @@
+/* 1) Background should be orange */
+body {
+  background: #f33c28;
+  font-family: serfif;
+}
+
+/* 3) heading is orange with and overline */
+h1 {
+  font-weight: bold;
+  font-family: fantasy;
+  color: rgba(255, 255, 10, 0.56);
+  text-decoration: overline;
+}
+
+/* 4) Headings are orange with underlines */
+h2 {
+  font-family:fantasy;
+  color: rgba(255, 255, 10, 0.56);
+  text-decoration:underline;
+}
+
+/* 5) headings are black */
+h3{
+  font-family: fantasy;
+}
+
+/* 2) paragraph */
+.paragraph {
+  font-family:serif;
+  color: #b51a09;
+  border-style: dashed;
+  background-color: rgba(255, 255, 10, 0.56);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* 6) images have a green border around them */
+img {
+  width: 190px;
+  border-radius: 24px;
+  border-style: double;
+  border-color: #297e29;
+}
+
+.restaurant {
+  display:flex;
+  justify-content: center;
+  
+}
+
